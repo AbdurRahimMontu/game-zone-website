@@ -156,3 +156,25 @@ button{
   border: 1px solid red;
   gap: 10px;
 }
+/* play games section  */
+.play-games-container{
+  max-width: 1400px;
+  margin: 10px auto;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+
+}
+.play-games-image{
+  position: relative;
+  width: 70%;
+}
+.play-games-image div img{
+  position: absolute;
+  top: 390px;
+  left: 500px;
+}
+.play-games-content{
+  width: 30%;
+}
+
