@@ -11,6 +11,7 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 /* nav section  */
+
 nav {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -92,7 +93,7 @@ span.letter {
     width: 50%;
 
    
-    /* align-items: end; */
+   
 }
 .banner-image img{
     width: 100%;
@@ -166,7 +167,7 @@ button{
 }
 .online-games-item .overlay:hover{
   opacity: 0.5;
-  
+
 }
 
 
@@ -327,3 +328,6 @@ margin-bottom: 50px;
 }
 
 
+.hide{
+  /* display: none; */
+}
