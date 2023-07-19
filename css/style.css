@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 body {
   font-family: "Work Sans", sans-serif;
@@ -107,9 +109,9 @@ span.letter {
 
 }
 .banner-content h1{
-    font-size: 80px;
-    font-weight: 800px;
-    text-transform: uppercase;
+font-size: 80px;
+font-weight: 800px;
+text-transform: uppercase;
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
@@ -139,28 +141,42 @@ button{
 /* online games section  */
 .online-games-container{
   max-width: 1400px;
-  margin: 10px auto;
+  margin: 100px auto;
 }
 .online-games-container h2{
   text-align: center;
   margin: 10px 0;
+  font-size: 40px;
 }
 .online-games-container p{
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 18px;
+
 }
 
 .online-games-item{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 1px solid red;
   gap: 10px;
 }
+.online-games-item p{
+  text-align:start ;
+}
+.online-games-item .overlay:hover{
+  opacity: 0.5;
+  
+}
+
+
+
 /* play games section  */
 .play-games-container{
   max-width: 1400px;
-  margin: 10px auto;
-  border: 1px solid red;
+  margin: 100px auto;
+
+
   display: flex;
   align-items: center;
 
@@ -169,6 +185,7 @@ button{
   position: relative;
   width: 70%;
 }
+
 .play-games-image div img{
   position: absolute;
   top: 390px;
@@ -177,4 +194,136 @@ button{
 .play-games-content{
   width: 30%;
 }
+/* button games  */
+
+.button-container{
+margin: 150px auto 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+max-width:1400;
+height: 375px;
+
+
+
+
+}
+
+.btn-games{
+  width: 20%;
+  background-color: #fff;
+  margin-bottom: 50px;
+  color: #0B0223;;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-games:hover{
+border: 2px solid #F948B2 ;
+color: #F948B2 ;
+border-radius: 40px;
+padding: 5px;
+background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section  */
+.footer-container{
+
+ margin: 20px auto;
+  max-width: 1400px;
+  height: 650px;
+  background-color: #0B0223;
+  padding: 60px;
+
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  gap: 60px;
+  margin-bottom: 50px;
+
+
+}
+.footer-links a{
+  color: #fff;
+  font-size: 18px;
+}
+.footer-links2 a{
+ color:rgba(255, 255, 255, 0.60);
+  font-size: 18px;
+
+}
+
+.footer-icon{
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items:center ;
+  gap: 50px;
+  margin-top: 20px;
+}
+.footer-links2{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  gap: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer-logo{
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+gap: 10px;
+margin-top: 100px;
+margin-bottom: 50px;
+
+ 
+
+}
+.footer-logo p{
+  color: #fff;
+}
+
+
+.footer-container .footer-last-para{
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 100px;
+  color:rgba(255, 255, 255, 0.60);
+}
+
 
