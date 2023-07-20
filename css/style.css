@@ -119,6 +119,7 @@ span.letter {
   font-weight: 600;
   margin-top: 20px;
   margin-right: 20px;
+  cursor: pointer;
 }
 .btn-2 {
   background-color: #4ec5f7;
@@ -176,6 +177,7 @@ span.letter {
 
 .overlay-container:hover .middle {
   opacity: 1;
+  cursor: pointer;
 }
 
 .overlay-youtube {
@@ -250,6 +252,7 @@ span.letter {
   border-radius: 40px;
   color: #f948b2;
   padding: 5px 5px;
+  cursor: pointer;
 }
 
 /* footer section  */
