@@ -17,8 +17,7 @@ nav {
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav-container {
-
-  display: flex;
+ display: flex;
   min-height: 50px;
   align-items: center;
   max-width: 1400px;
@@ -27,10 +26,9 @@ nav {
 }
 /* nav logo  */
 .nav-logo {
- 
-  display: flex;
-  width: 50%;
-  align-items: center;
+ display: flex;
+width: 50%;
+align-items: center;
 }
 .nav-logo img {
   width: 85px;
@@ -74,41 +72,24 @@ span.letter {
 
 /* banner section  */
 .banner-container{
-  
-    display: flex;
+  display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1400px;
     margin: 10px auto;
-    gap: 50px;
-
-}
+    gap: 50px;}
 .banner-content{
-    width: 50%;
-
-
-
-}
+  width: 50%;}
 .banner-image{
-    width: 50%;
-
-   
-   
-}
+  width: 50%;}
 .banner-image img{
     width: 100%;
-    height: 100%;
-  
- 
- 
-}
+    height: 100%;}
 .banner-content h2{
     color:#0B0223;
     font-size: 40px;
     font-weight: 600px;
-    text-transform: uppercase;
-
-}
+    text-transform: uppercase;}
 .banner-content h1{
 font-size: 80px;
 font-weight: 800px;
@@ -116,17 +97,13 @@ text-transform: uppercase;
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-
+-webkit-text-fill-color: transparent;}
 .banner-content p{
     color:#534C64;
     font-size: 18px;
-    font-weight: 500px;
-
-}
-button{
-    padding: 21px 40px;
+    font-weight: 500px;}
+.banner-btn{
+    padding: 20px 40px;
     background-color: #F948B2;
     color: #fff;
     border-radius: 40px;
@@ -134,8 +111,7 @@ button{
     font-size: 18px;
     font-weight: 600;
     margin-top: 20px;
-    margin-right: 20px;
-}
+    margin-right: 20px;}
 .btn-2{
     background-color: #4EC5F7;
 }
@@ -143,128 +119,97 @@ button{
 .online-games-container{
   max-width: 1400px;
   margin: 100px auto;
-}
-.online-games-container h2{
-  text-align: center;
-  margin: 10px 0;
-  font-size: 40px;
-}
-.online-games-container p{
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 20px;
-  font-size: 18px;
+
 
 }
-
 .online-games-item{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}
-.online-games-item p{
-  text-align:start ;
-}
-.online-games-item .overlay:hover{
-  opacity: 0.5;
+  gap: 20px;
 
 }
-
-
-
+.online-games-video img{
+  width: 100%;
+}
+.online-games-container h2{
+  font-size: 40px;
+  text-align: center;
+}
+.online-games-container .para{
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0;
+}
 /* play games section  */
 .play-games-container{
   max-width: 1400px;
   margin: 100px auto;
-
-
   display: flex;
-  align-items: center;
-
-}
+  justify-content: space-between;
+  align-items: center;}
 .play-games-image{
-  position: relative;
-  width: 70%;
-}
-
-.play-games-image div img{
-  position: absolute;
-  top: 390px;
-  left: 500px;
-}
+width: 50%;
+position: relative;}
 .play-games-content{
-  width: 30%;
-}
-/* button games  */
+  width: 50%;
+padding-left: 270px;}
+.play-games-content h2{
+  font-size: 40px;
+  font-weight: 700;}
+.play-games-content p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;}
+.play-games-image .big-image{
+  width: 80%;}
+.play-games-image .small-image{
+  width: 40%;
+  position: absolute;
+  top: 340px;
+  left: 410px;}
 
-.button-container{
-margin: 150px auto 50px;
+/* button section  */
+.btn-section{
+  max-width: 1400px;
+  margin: 200px auto 50px;
+}
+
+.btn-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+
+}
+.btn-items{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-align-content: center;
-max-width:1400;
-height: 375px;
-
-
-
-
+align-items: center;
+gap: 10px;
+width: 20%;
+margin-top: 30px;
 }
 
-.btn-games{
-  width: 20%;
-  background-color: #fff;
-  margin-bottom: 50px;
-  color: #0B0223;;
-  font-size: 18px;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+.btn-items:hover{
+  border: 2px solid #F948B2;
+  border-radius: 40px;
+  color: #F948B2;
+  padding: 5px 5px;
 }
-
-.btn-games:hover{
-border: 2px solid #F948B2 ;
-color: #F948B2 ;
-border-radius: 40px;
-padding: 5px;
-background-color: transparent;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /* footer section  */
-.footer-container{
-
- margin: 20px auto;
-  max-width: 1400px;
-  height: 650px;
+footer{
   background-color: #0B0223;
-  padding: 60px;
+}
+.footer-container{
+margin: 20px auto;
+max-width: 1400px;
+height: 650px;
+padding: 60px;
 
 }
 .footer-links{
